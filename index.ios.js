@@ -45,6 +45,10 @@ var sbsb = React.createClass({
         return (
             <TouchableHighlight>
         <View style={ styles.cell }>
+            <Image
+                source={ { uri: './333.gif' } }
+                style={ styles.cellImage }
+            />
                 <Text>{person.ProName}</Text>
         </View>
             </TouchableHighlight>
@@ -88,6 +92,10 @@ const styles = StyleSheet.create({
         height: 50,
         paddingTop: 20,
         backgroundColor: 'red',
+    },
+    cellImage: {
+        height: 60,
+        width: 100,
     }
 });
 

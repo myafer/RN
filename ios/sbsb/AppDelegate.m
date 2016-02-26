@@ -30,6 +30,7 @@
    * `inet` value under `en0:`) and make sure your computer and iOS device are
    * on the same Wi-Fi network.
    */
+//  http://www.oschina.net/translate/going-native-with-react?cmp&p=2
 
   jsCodeLocation = [NSURL URLWithString:@"http://192.168.18.29:8081/index.ios.bundle?platform=ios&dev=true"];
 
